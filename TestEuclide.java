@@ -11,8 +11,8 @@
 public class TestEuclide {
 
     public static void main(String[] arg) {
-	int numMaxCoppie = 10000;
-	int limiteNumeri = 100000;
+	int numMaxCoppie = 100000;
+	int limiteNumeri = 9000000;
 	int contatore = 0;
 	for (int i = 1; i <= numMaxCoppie; i++) {
 	    // scelgo due numeri a caso:
@@ -24,9 +24,9 @@ public class TestEuclide {
 		contatore++;
 	}
 	System.out.print("Su " + numMaxCoppie + " coppie di numeri casuali ");
-	System.out.println("la frequenza che siano primi tra loro e':");
+	System.out.print("la frequenza che siano primi tra loro e': ");
 	System.out.println((double)contatore/numMaxCoppie);
-	System.out.println("La probabilita' (secondo il teorema di Cesaro) e':");
+	System.out.print("\nLa probabilita' (secondo il teorema di Cesaro) e': ");
 	System.out.println(6/(Math.PI*Math.PI));
 
 
