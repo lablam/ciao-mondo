@@ -72,7 +72,3 @@ public class ScegliCarta {
     }
 
 }
-
-
-
-0
