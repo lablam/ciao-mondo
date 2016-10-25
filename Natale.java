@@ -5,7 +5,7 @@
 public class Natale {
 
     public static void main(String[] a) {
-	int numPiani = 7;
+	int numPiani = 10;
 	for (int i = 0; i < numPiani; i++) {
 	    stampaSpazi(numPiani - i);
 	    stampaStelle(2*i - 1);
