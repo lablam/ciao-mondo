@@ -1,8 +1,8 @@
 /*
     Alcuni esempi di utilizzo di array. La classe Conto.java 
     e un suo utilizzo nella classe SimulazioneConto.java.
-    http://www.dmi.units.it/~logar/didattica/corsoJava/esempi/
 */
+
 import java.text.NumberFormat;
 
 public class Conto {
